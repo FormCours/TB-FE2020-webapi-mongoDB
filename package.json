@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "debug": "node_modules\\.bin\\nodemon server.js"
+    "debug": "nodemon server.js"
   },
   "keywords": [
     "NodeJS",
@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormCours/TB-FE2020-webapi-mongoDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FormCours/TB-FE2020-webapi-mongoDB/issues"
+  },
+  "homepage": "https://github.com/FormCours/TB-FE2020-webapi-mongoDB#readme"
 }
